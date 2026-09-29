@@ -116,7 +116,33 @@ footer{
     margin: 80px auto 0 auto;
     border-radius: 15px;
 }
+.servicos{
+    padding: 10px 0 100px 0;
 
+}
+.h2-servicos{
+font-weight: 500;
+}
+.lista-servicos{
+    width: 200px;
+    /* inline <a> <span> <img>*/
+    /* <p> <h1> <div> block*/
+    display:block;
+    text-decoration: none;
+    color:#515151;
+    border: 2px solid;
+    margin: 0 50px;
+    padding: 20px 0;
+    border-radius: 15px;
+    transition:box-shadow 0.2s, transform 0.2s ;
+}
+.lista-servicos:hover{
+    box-shadow: 0 2px 5px rgba(5, 30, 247, 0.719);
+    transform: translateY(-2px);
+}
+.img-card{
+    width: 70%;
+}
 @media (max-width: 768px){
     header{
     margin:30px 0px 60px 0;
@@ -159,5 +185,15 @@ a{
 .img-dog{
     max-height: 250px;
 }
+.h2-servicos{
+font-weight: 400;
+font-size: 22px;
+}
 
+}
+.lista-servicos{
+    width: 200px;  
+    margin: 17px 10px;
+    padding: 16px 0;
+  
 }
